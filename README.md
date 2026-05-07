@@ -2,7 +2,10 @@
 
 This project implements an end-to-end machine learning solution for predicting product demand based on historical sales data, pricing, and promotional factors.
 
-## 🚀 Project Overview
+## 🚀 Live Demo
+**The application is live at: [https://demand-forecasting-model.streamlit.app/](https://demand-forecasting-model.streamlit.app/)**
+
+## 📋 Project Overview
 The goal of this project is to provide businesses with a tool to anticipate future demand, allowing for better inventory management and optimized pricing strategies. It includes a full data processing pipeline, a tuned XGBoost regressor, and a real-time prediction dashboard built with Streamlit.
 
 ## 🛠️ Tech Stack
@@ -20,7 +23,7 @@ The model was trained using `RandomizedSearchCV` to optimize hyperparameters. Th
 
 *Key features used: Price, Discount, Inventory Level, Promotion, Competitor Pricing, and Category.*
 
-## 💻 How to Run the App
+## 💻 How to Run Locally
 
 1. **Clone the repository:**
    ```bash
